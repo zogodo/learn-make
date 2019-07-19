@@ -10,3 +10,5 @@
 !*.sh
 !*.am
 
+config.h
+
