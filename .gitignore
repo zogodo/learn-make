@@ -9,6 +9,7 @@
 !*.c
 !*.sh
 !*.am
+!*.ac
 
 config.h
 Makefile

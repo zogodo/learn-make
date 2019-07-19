@@ -1,7 +1,7 @@
-rm -rf config.log autom4te.cache autoscan.log config.h.in configure.ac config.status configure aclocal.m4 COPYING INSTALL depcomp install-sh missing Makefile Makefile.in config.h 
-autoscan
-mv configure.scan configure.ac
-vim configure.ac
+rm -rf config.log autom4te.cache autoscan.log config.h.in config.status configure aclocal.m4 COPYING INSTALL depcomp install-sh missing Makefile Makefile.in config.h 
+#autoscan
+#mv configure.scan configure.ac
+#vim configure.ac
 
 aclocal
 autoheader
