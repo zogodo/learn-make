@@ -1,0 +1,9 @@
+
+	echo "ssss"
+SOURCE = $(wildcard *.c)
+	echo "$(SOURCE)"
+
+all:$(subst .c,.o,$(wildcard *.c))
+
+%.o:%.c
+	gcc -o $@ $<
