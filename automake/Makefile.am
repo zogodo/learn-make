@@ -1,3 +1,3 @@
 
-SUBDIRS = suba
+SUBDIRS = suba subb
 

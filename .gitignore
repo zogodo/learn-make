@@ -11,4 +11,5 @@
 !*.am
 
 config.h
+Makefile
 
