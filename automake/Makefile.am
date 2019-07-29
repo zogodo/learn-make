@@ -1,3 +1,3 @@
 
-SUBDIRS = suba subb
+SUBDIRS = suba libtt subb
 
