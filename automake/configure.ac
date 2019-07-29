@@ -1,4 +1,4 @@
-AC_INIT([automake], [1.0], [bug-report@earth.com])
+AC_INIT([automake], [1.0], [123@qq.com])
 AM_INIT_AUTOMAKE([foreign -Werror])
 
 AC_PREREQ([2.69])
