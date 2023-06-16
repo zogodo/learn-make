@@ -35,3 +35,13 @@ clean:
 xxx:
 	@echo "$(SOURCE)"
 	@echo $(aaa)
+
+
+arr1 = "aaa bbb ccc"
+arr2 = $(foreach a, $(arr1),AA$(a)ZZ) #最后一个逗号后面如果有空格,会被保留
+$(info $(arr2))
+
+abc:
+	@echo abc
+
+
